@@ -1,9 +1,9 @@
 # String-Inverter-C
 
-**Build/Compile**:
+**Build/Compile process**:
 - Create a directory in `.` named `./build`.
 - Change actual directory to `./build`.
-- Type `cmake ..` to make the `Makefile` in `./build`.
-- Type `make` to run `Makefile` and create the compiled file named `./build/Executable.exe`.
+- Type `cmake ..` in `./build` directory to make the `./build/Makefile`.
+- Type `make` in `./build` to run `./build/Makefile` and create the compiled file named `./build/Executable.exe`.
 
 ### Created by: @paulao255
