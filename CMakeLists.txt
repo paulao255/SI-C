@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
-project(String-Inverter LANGUAGES C VERSION 1.1.0)
-set(CMAKE_C_STANDARD 89)
+project(String-Inverter LANGUAGES C VERSION 1.1.1)
+set(CMAKE_C_STANDARD 90)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_FLAGS "-fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wformat=2 -Wnull-dereference -Wstrict-prototypes -Wmissing-prototypes -Wcast-align -Wpointer-arith -Wundef -v -O3 -funroll-loops -flto -mtune=native -march=native")
 add_executable(Executable.exe ../src/Main.c)
