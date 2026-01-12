@@ -7,17 +7,17 @@
 
 
 /* Main code: */
-int main()
+int main(void)
 {
-	/* Test 1 version variables: */
-	#define STRING_INVERTER_FULL_VERSION 100.0L /* Test 1 full version variable.  */
-	#define STRING_INVERTER_MAJOR_VERSION  1.0L /* Test 1 major version variable. */
-	#define STRING_INVERTER_MINOR_VERSION  0.0L /* Test 1 minor version variable. */
-	#define STRING_INVERTER_PATCH_VERSION  0.0L /* Test 1 patch version variable. */
+	/* String Inverter version variables: */
+	#define STRING_INVERTER_FULL_VERSION  110.0L /* String Inverter full version variable  (1.1.0). */
+	#define STRING_INVERTER_MAJOR_VERSION   1.0L /* String Inverter major version variable     (1). */
+	#define STRING_INVERTER_MINOR_VERSION   1.0L /* String Inverter minor version variable     (1). */
+	#define STRING_INVERTER_PATCH_VERSION   0.0L /* String Inverter patch version variable     (0). */
 
 	/* Local variables: */
-	int character = 0;                          /* Stored character variable.     */
-	char string[131072] = "";                   /* Text string variable.          */
+	int character = 0;                           /* Stored character variable.                      */
+	char string[131072] = "";                    /* Text string variable.                           */
 
 	/* Main commands: */
 	fputs("Type a text: ", stdout);
