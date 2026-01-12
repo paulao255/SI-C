@@ -11,9 +11,9 @@ int main()
 {
 	/* Test 1 version variables: */
 	#define STRING_INVERTER_FULL_VERSION 100.0L /* Test 1 full version variable.  */
-	#define STRING_INVERTER_MAJOR_VERSION 1.0L  /* Test 1 major version variable. */
-	#define STRING_INVERTER_MINOR_VERSION 0.0L  /* Test 1 minor version variable. */
-	#define STRING_INVERTER_PATCH_VERSION 0.0L  /* Test 1 patch version variable. */
+	#define STRING_INVERTER_MAJOR_VERSION  1.0L /* Test 1 major version variable. */
+	#define STRING_INVERTER_MINOR_VERSION  0.0L /* Test 1 minor version variable. */
+	#define STRING_INVERTER_PATCH_VERSION  0.0L /* Test 1 patch version variable. */
 
 	/* Local variables: */
 	int character = 0;                          /* Stored character variable.     */
