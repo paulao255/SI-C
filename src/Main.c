@@ -3,6 +3,7 @@
 #define STRING_INVERTER_C
 
 /* Importations: */
+#include "C-Utils/cutils.h"
 #include <stdio.h>
 #include <string.h>
 
